@@ -1,0 +1,209 @@
+.body {
+    font-family: arial,sans-serif;
+}
+.logo_search_div {
+    position: absolute;
+    top: 25%;
+    left: 40%;
+    margin: -25px 0 0 -25px;
+}
+
+.image_container{ 
+    position: relative;
+    margin-left: 134px;
+    width: 400px;
+}
+
+#logo , #logo_image{
+    height: 92px;
+}
+
+#logo {
+    margin-left: 134px;
+}
+
+.images_str{
+    color: #4285f4;
+    font: 16px/16px roboto-regular, arial, sans-serif;
+    position: absolute;
+    bottom: 3px;
+    right: 135px;
+}
+
+
+#search_text_bar {
+    border-radius: 30px;
+    border-color: rgb(238, 238, 238);
+    border-style: groove;
+    width: 540px;
+    height: 44px;
+    font-size: 16px;
+    padding-left: 40px;
+}
+
+.search_text_div{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    position: relative;
+    width: 580px;
+}
+
+.buttons {
+    margin-left: 145px;
+}
+.buttons input {
+    padding: 5px;
+    margin: 5px;
+    border: none;
+    height: 30px;
+    min-width: 120px;
+    font-size: 11px;
+    font-weight: bold;
+    box-shadow: none;
+}
+.buttons input:hover {
+    cursor: pointer;
+}
+
+#search_text_bar:hover {
+    box-shadow: 0px 0px 10px gray;
+    border-style: none;
+}
+
+#search_text_bar + .tooltiptext {
+    visibility: hidden;
+    width: 60px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+}
+
+#search_text_bar:hover + .tooltiptext {
+    visibility: visible;
+
+}
+
+.top_right_url_advnc a, #top_right_url_main {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+}
+.top_right_url_images a {
+    position: absolute;
+    top: 8px;
+    right: 140px;
+}
+
+
+#gray {
+    color: gray;
+    left: 13px;
+    top: 15px;
+    position:absolute;
+}
+
+.search_text_div button{
+    cursor: pointer;
+    position: absolute;
+    background: transparent;
+    border: none;
+    height: 44px;
+    width: 40px;
+    right: 5px;
+    top: 2px;
+    padding: 1px;
+}
+
+
+#blue {
+    position: absolute;
+    top: 15px;
+    right: 10px;
+    color: blue;
+}
+
+
+.header {
+    position: absolute;
+    top: 8px;
+    width: 100%
+}
+
+.header a.left_url {
+    position: absolute;
+    right: 16px;
+}
+
+.header a.right_url {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+    height: 24px;  
+}
+
+#logo_advanced {
+    width: 74px;
+    height: 24px;  
+}
+.header h2.page_title{
+    position: absolute;
+    top: 100px;
+    left: 40px;
+    color: red;
+    font-weight: normal;
+}
+
+.form_div{
+    position: absolute;
+    top: 15%;
+    left: 2%;
+    width: 100%;
+}
+
+.head_line, .line {
+    display: flex;
+    height: 30px;
+    margin-bottom: 15px;
+}
+
+.head_label {
+    width: 35%;
+}
+.head_description , .head_label{
+    font-size: 16px;
+}
+.label {
+    width: 10%;
+    font-size: 14px;
+    padding: 5px;
+}
+
+.input {
+    width: 25%;
+}
+
+.description {
+    width: 50%;
+    font-size: 11px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+#advanced_search {
+    background-color: #4d90fe;
+    border-radius: 2px;
+    font-size: 11px;
+    font-weight: bold;
+    color: white;
+    height: 30px;
+    min-width: 120px;
+    box-shadow: none;
+    border: 1px solid #3079ed;
+    left: 31%;
+    position: absolute;
+}
+
+
